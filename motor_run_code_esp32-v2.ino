@@ -159,7 +159,7 @@ if (newInput) {
    
    if (t.unixtime() <= rtc.now().unixtime()) {
     Serial.println("Time is in the past"); 
-    armed = false;
+    armed = false; // should validate that the target time is in the future, not the past currently prints error untill target time and then after
     }
 
   if (armed && rtc.now().unixtime() >= target.unixtime()) {
