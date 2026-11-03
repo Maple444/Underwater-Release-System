@@ -106,10 +106,6 @@ void setup() {
    // rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
 
   }
-// set the original target to way in the future to prevent firing on start
-  //  t= DateTime(2098, 1, 1, 1, 1, 1);
-
-
 
   BLEDevice::init("MotorController");
   BLEServer *server = BLEDevice::createServer();
@@ -132,7 +128,7 @@ void setup() {
         delayme(200);
  }
 
-   Serial.println("Ready");
+   Serial.println("Ready"); //solid led no blinking when intialized
 }
 
 void loop() {
