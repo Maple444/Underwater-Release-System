@@ -5,7 +5,5 @@ this definately maybe fixed soon. the esp32 does seem to work with ble and pwm i
 Update: 20/10/2026 the arduino code built off the preexisting Release code, note the Release_Motor_Control_FINAL.ino file is 
 the old code using the arduino nano BLE, new code/ versions will be uploaded when complete.
 
-(add BLE and NTP sync libraries)
-
 update: 
-the esp32 does finish a battery faster than the arduino, but it should last <4 days with a 2800mah 18650, I may use a esp board with more sturdy battery inputs.
+the esp32 does finish a battery faster than the arduino, but it should last <4 days with a 2800mah 18650, I may use an alternate esp32 board with more sturdy battery inputs.
