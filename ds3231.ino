@@ -30,7 +30,7 @@ void setup () {
 
   // When time needs to be re adjusted on a previously configured device, uncomment the
   // following line inorder to pull the correct time from your pc:
-  rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+  // rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
   // This line sets the RTC with an explicit date & time, for example to set
   // January 21, 2014 at 3am you would call:
   // rtc.adjust(DateTime(2014, 1, 21, 3, 0, 0));
